@@ -1,0 +1,38 @@
+{
+    "packageDirectories": [
+        {
+            "path": "package-01",
+            "package": "jpower-case-package-managed-01",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true
+        },
+        {
+            "path": "package-02",
+            "package": "jpower-case-package-managed-02",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false,
+            "dependencies": [
+                {
+                    "package": "jpower-case-package-managed-01",
+                    "versionNumber": "0.1.0.LATEST"
+                }
+            ]
+        }
+    ],
+    "namespace": "TPAY2_TEST",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "46.0",
+    "packageAliases": {
+        "jpower-case-package-managed-01": "0Ho0c000000fxTJCAY",
+        "jpower-case-package-managed-02": "0Ho0c000000fxTOCAY",
+        "jpower-case-package-managed-01@0.1.0-1-second-gen-packaging-public-interface-implentation": "04t0c000001ZeKyAAK",
+        "jpower-case-package-managed-02@0.1.0-1-second-gen-packaging-public-interface-implentation": "04t0c000001ZeL3AAK",
+        "jpower-case-package-managed-01@0.1.0-2-second-gen-packaging-public-interface-implentation": "04t0c000001ZeL8AAK",
+        "jpower-case-package-managed-02@0.1.0-2-second-gen-packaging-public-interface-implentation": "04t0c000001ZeLDAA0",
+        "jpower-case-package-managed-02@0.1.0-3-second-gen-packaging-public-interface-implentation": "04t0c000001ZeLIAA0",
+        "jpower-case-package-managed-01@0.1.0-3-second-gen-packaging-public-interface-implentation": "04t0c000001ZeLNAA0",
+        "jpower-case-package-managed-02@0.1.0-4-second-gen-packaging-public-interface-implentation": "04t0c000001ZeLSAA0"
+    }
+}
